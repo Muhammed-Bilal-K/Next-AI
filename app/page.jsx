@@ -1,3 +1,5 @@
+import Feed from "@components/Feed";
+
 const Home = () => {
   return (
     <section className="w-full flex items-center flex-col">
@@ -7,10 +9,13 @@ const Home = () => {
         <span className="orange_gradient text-center">AI-Powered Prompts</span>
       </h1>
       <p className="desc text-center">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur debitis repellat porro rem accusantium ex cum eius tenetur facere quod quos, dolor esse nihil, eaque illum doloremque. Quisquam, quibusdam iure.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur
+        debitis repellat porro rem accusantium ex cum eius tenetur facere quod
+        quos, dolor esse nihil, eaque illum doloremque. Quisquam, quibusdam
+        iure.
       </p>
 
-      {/* Feed */}
+      <Feed />
     </section>
   );
 };
