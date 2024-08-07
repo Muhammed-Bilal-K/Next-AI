@@ -16,6 +16,12 @@ const Nav = () => {
               width={30}
               height={30}
             />
+            <p className="logo_text">PromptGen</p>
+
+            {/* Mobile Devices Nav*/}
+            <div className="sm:flex hidden">
+        
+            </div>
         </Link>
     </nav>
   )
