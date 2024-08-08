@@ -20,7 +20,7 @@ const Nav = () => {
 
             {/* Mobile Devices Nav*/}
             <div className="sm:flex hidden">
-        
+                <h1>The prompt gen</h1>
             </div>
         </Link>
     </nav>
